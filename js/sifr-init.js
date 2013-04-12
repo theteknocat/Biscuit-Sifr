@@ -1,5 +1,4 @@
-// Use this for Prototype:
-document.observe("dom:ready",function() {
+$(document).ready(function() {
 	// Put sIFR replacements here, eg:
 	if (typeof(sIFR) == "function") {
 		sIFR.replaceElement(named({
@@ -14,8 +13,4 @@ document.observe("dom:ready",function() {
 			sFlashVars:"textalign=center&offsetTop=6"
 		}));
 	}
-});
-// Use this for jQuery:
-jQuery(document).ready(function() {
-	// Put sIFR replacements here
 });

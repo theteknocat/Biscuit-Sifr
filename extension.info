@@ -1,0 +1,4 @@
+name = "Sifr"
+description = "Extension for easily adding Scalable Inline Flash Replacement (sIFR) to content."
+version = "2.0"
+is_global = 1
